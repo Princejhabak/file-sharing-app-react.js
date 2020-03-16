@@ -5,7 +5,7 @@ export const smtp = {
     secure: false, // true for 465, false for other ports
     auth: {
         user: '', // generated ethereal user
-        pass: ''  
+        pass: SENDGRID_API_KEY  
     }
 };
 
