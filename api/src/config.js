@@ -20,5 +20,5 @@ export const s3Config = {
 
 
 export const s3Region = S3_REGION
-export const s3Bucket = ''
+export const s3Bucket = S3_BUCKET_NAME
 
