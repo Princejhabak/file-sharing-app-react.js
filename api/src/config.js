@@ -4,14 +4,14 @@ export const smtp = {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-        user: '', // generated ethereal user
-        pass: ''  
+        user: 'apikey', // generated ethereal user
+        pass: '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'  
     }
 };
 
 
 
-export const url = 'http://localhost:3001';
+export const url = 'http://localhost:3000';
 
 export const s3Config = {
     accessKeyId: accessKeyId,
@@ -19,6 +19,5 @@ export const s3Config = {
 };
 
 
-export const s3Region = ''
-export const s3Bucket = ''
-
+export const s3Region = 'ap-south-1'
+export const s3Bucket = 'fileapp-reactjs'
