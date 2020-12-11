@@ -4,8 +4,10 @@ export const smtp = {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-        user: 'apikey', // generated ethereal user
-        pass: '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'  
+
+        user: SENDGRID_USER_NAME, // generated ethereal user
+        pass: SENDGRID_API_KEY  
+
     }
 };
 
@@ -19,5 +21,8 @@ export const s3Config = {
 };
 
 
-export const s3Region = 'ap-south-1'
-export const s3Bucket = 'fileapp-reactjs'
+
+export const s3Region = S3_REGION
+export const s3Bucket = S3_BUCKET_NAME
+
+
